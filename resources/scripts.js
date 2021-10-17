@@ -2,3 +2,4 @@
 
 WolframNotebookEmbedder.embed('https://www.wolframcloud.com/obj/darthanchovy0/Published/ForWebsite.nb',document.getElementById('notebookContainer'));
 
+WolframNotebookEmbedder.embed('https://www.wolframcloud.com/obj/darthanchovy0/Published/ElectricFIeldPotential.nb',document.getElementById('notebookContainer'));
