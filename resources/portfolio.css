@@ -84,7 +84,7 @@ h2 {
 }
 p {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 23px;
     margin: 0 0 15px;
 }
@@ -169,7 +169,7 @@ button:hover {
 }
 .button {
     display: inline-block;
-    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-family: 'Playfair Display', Georgia, serif;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
@@ -178,15 +178,22 @@ button:hover {
     text-align: center;
     text-decoration: none;
     transition: opacity 0.5s ease;
+    border-radius: 10px;
 }
 .button:hover {
     opacity: 0.75;
+    background-color: #FFFFFF;
+    color: #333333;
+    border: 2px solid #333333 ;
+    
 }
 .button-primary {
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
-    background-color: transparent;
+    /*background-color: transparent;*/
+    background-color: #333333;
     float: left;
+    margin-right: 15px;
 }
 input, textarea {
     margin-bottom: 15px;
@@ -215,6 +222,7 @@ textarea {
 .photo-hero-text {
     padding: 0 20px;
     color: navy;
+
 }
 .photo-hero h1 {
     color: #FFFFFF;
@@ -233,17 +241,24 @@ textarea {
     margin-top: -80px;
 }
 .image-box {
-    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
-    width: calc(100% - 40px);
-    margin: 20px;
-    max-height: 450px;
+    box-shadow: 0 0 0px rgba(255, 255, 255, 1);
+    width: calc(70% - 70px);
+    margin top :10px;
+    margin-bottom: 40px;
+    max-height: 400px;
     overflow: hidden;
-    float: left;
+    float: right;
     display: inline-block;
+    /*border: 2px solid #333333;*/
+
 }
 .image-box img {
-    width: 100%;
+    width: 60%;
     height: auto;
+    position: relative;
+     display: block;
+    
+    
 }
 .photo-blockquote {
     background-color: #999999;
@@ -325,7 +340,7 @@ textarea {
 .main-content-benefits {
     /*padding: 80px 0; */
     background-color: #F5F9FF;
-    padding-bottom: 250px;
+    padding-bottom: 180px;
     padding-top: 50px;
 
 
