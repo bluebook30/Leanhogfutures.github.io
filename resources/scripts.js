@@ -2,8 +2,8 @@
 
 WolframNotebookEmbedder.embed('https://www.wolframcloud.com/obj/darthanchovy0/Published/ForWebsite.nb',document.getElementById('notebookContainer'));
 
-WolframNotebookEmbedder.embed('https://www.wolframcloud.com/obj/darthanchovy0/Published/ElectricFIeldPotential.nb',document.getElementById('notebookContainer'));
+WolframNotebookEmbedder.embed('https://www.wolframcloud.com/download/tg021/Published/EquiCurv.nb',document.getElementById('notebookContainer'));
 
-WolframNotebookEmbedder.embed('https://www.wolframcloud.com/download/tg021/Published/pendulum.gif',document.getElementById('notebookContainer'));
+WolframNotebookEmbedder.embed('https://www.wolframcloud.com/download/tg021/Published/Pendulum.nb',document.getElementById('notebookContainer'));
 
 WolframNotebookEmbedder.embed('https://www.wolframcloud.com/download/tg021/Published/CubeRender.nb',document.getElementById('notebookContainer'));
