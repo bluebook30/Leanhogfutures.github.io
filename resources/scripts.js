@@ -7,4 +7,4 @@ WolframNotebookEmbedder.embed('https://www.wolframcloud.com/obj/tg021/Published/
 WolframNotebookEmbedder.embed('https://www.wolframcloud.com/obj/tg021/Published/Pendulum.nb',document.getElementById('notebookContainer'));
 
 WolframNotebookEmbedder.embed(''https://www.wolframcloud.com/obj/tg021/Published/CubeRender.nb',document.getElementById('notebookContainer'));
-<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
