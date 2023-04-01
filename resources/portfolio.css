@@ -217,8 +217,8 @@ textarea {
 /* 6. Page Styles
 ======================================== */
 .photo-hero {
-    background-color: #red; /*background-color: #888888; */
-    min-height: auto; /*min-height: 700px; */
+    background-color: #888888; 
+    min-height: 700px;
 }
 .photo-hero-text {
     padding: 0 20px;
@@ -262,7 +262,7 @@ textarea {
     
 }
 .photo-blockquote {
-    background-color: #999999; //
+    background-color: #999999; 
     margin-top: -80px;
     padding-bottom: 80px;
 }
@@ -319,7 +319,7 @@ textarea {
 }
 @media (min-width: 1024px) {
     .photo-hero {
-        min-height: 700px;
+        min-height: auto;
     }
     .photo-hero-text {
         width: 70%;
