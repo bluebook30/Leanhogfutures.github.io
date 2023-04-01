@@ -218,7 +218,7 @@ textarea {
 ======================================== */
 .photo-hero {
     background-color: #red; /*background-color: #888888; */
-    min-height: 700px;
+    min-height: auto; /*min-height: 700px; */
 }
 .photo-hero-text {
     padding: 0 20px;
