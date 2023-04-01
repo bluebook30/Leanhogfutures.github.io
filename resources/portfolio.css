@@ -14,7 +14,7 @@ Color profile :
 #AEBAA8
 ======================================== */
 
-/* 1. Global Styles 
+/* 1. Global Styles
 ======================================== */
 * {
     box-sizing: border-box;
@@ -113,7 +113,6 @@ img {
     margin: 0 auto;
     max-width: 1280px;
     padding: 0 15px;
-    
 }
 .container:before, .container:after {
     content: " ";
@@ -217,7 +216,7 @@ textarea {
 /* 6. Page Styles
 ======================================== */
 .photo-hero {
-    background-color: #888888; 
+    background-color: #888888;
     min-height: 700px;
 }
 .photo-hero-text {
@@ -262,7 +261,7 @@ textarea {
     
 }
 .photo-blockquote {
-    background-color: #999999; 
+    background-color: #999999;
     margin-top: -80px;
     padding-bottom: 80px;
 }
@@ -319,7 +318,7 @@ textarea {
 }
 @media (min-width: 1024px) {
     .photo-hero {
-        min-height: auto;
+        min-height: 700px;
     }
     .photo-hero-text {
         width: 70%;
