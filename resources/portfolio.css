@@ -60,6 +60,8 @@ h6 {
 h1 {
     font-size: calc(100px / 1.5);
     line-height: 0.85;
+    display: inline-block;
+    vertical-align: top;
 }
 h2 {
     font-size: calc(65px / 1.5);
@@ -113,6 +115,8 @@ img {
     margin: 0 auto;
     max-width: 1280px;
     padding: 0 15px;
+    display: inline-block;
+    vertical-align: top;
 }
 .container:before, .container:after {
     content: " ";
@@ -242,13 +246,14 @@ textarea {
 }
 .image-box {
     box-shadow: 0 0 0px rgba(255, 255, 255, 1);
-    width: calc(70% - 70px);
-    margin top :10px;
+    width: calc(100% - 500px);
+    margin top :50px;
     margin-bottom: 40px;
     max-height: 400px;
     overflow: hidden;
     float: right;
     display: inline-block;
+    vertical-align: top;
     /*border: 2px solid #333333;*/
 
 }
